@@ -6,7 +6,7 @@ tasty_bytes:
       account: 'not needed'
       user: 'not needed'
       role: accountadmin
-      database: tasty_bytes_dbt_db
+      database: DATA_BUILD_TOOL
       schema: dev
       warehouse: tasty_bytes_dbt_wh
     prod:
@@ -14,6 +14,6 @@ tasty_bytes:
       account: 'not needed'
       user: 'not needed'
       role: accountadmin
-      database: tasty_bytes_dbt_db
+      database: DATA_BUILD_TOOL
       schema: prod
       warehouse: tasty_bytes_dbt_wh

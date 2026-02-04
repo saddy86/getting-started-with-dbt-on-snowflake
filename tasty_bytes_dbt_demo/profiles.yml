@@ -8,7 +8,7 @@ tasty_bytes:
       role: accountadmin
       database: DATA_BUILD_TOOL
       schema: dev
-      warehouse: tasty_bytes_dbt_wh
+      warehouse: SANDBOX_XS
     prod:
       type: snowflake
       account: 'not needed'
@@ -16,4 +16,4 @@ tasty_bytes:
       role: accountadmin
       database: DATA_BUILD_TOOL
       schema: prod
-      warehouse: tasty_bytes_dbt_wh
+      warehouse: SANDBOX_XS
